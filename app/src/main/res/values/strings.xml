@@ -1,6 +1,13 @@
 <resources>
-    <string name="app_name">Material Login Example</string>
+    <string name="app_name">Firebase Auth Demo</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="action_resend_verification_email">Resend Verification Email</string>
+    <string name="action_reset_password">Reset Password</string>
+    <string name="action_reset_email">Reset Email</string>
+    <string name="action_sign_out">Sign Out</string>
+    <string name="action_delete_user">Delete User</string>
+    <string name="action_send_password_resent_email">Send password reset email</string>
+    <string name="action_re_auth">Re authenticate</string>
 </resources>

@@ -1,6 +1,39 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.blackspider.firebaseauthdemo.MainActivity">
+
+    <item android:id="@+id/action_resend_verification_email"
+        android:title="@string/action_resend_verification_email"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_reset_email"
+        android:title="@string/action_reset_email"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_reset_password"
+        android:title="@string/action_reset_password"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_send_password_resent_email"
+        android:title="@string/action_send_password_resent_email"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_re_auth"
+        android:title="@string/action_re_auth"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_sign_out"
+        android:title="@string/action_sign_out"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_delete_user"
+        android:title="@string/action_delete_user"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
 </menu>
